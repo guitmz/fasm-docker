@@ -1,7 +1,7 @@
 FROM alpine
 MAINTAINER Guilherme Thomazi Bonicontro <thomazi@linux.com>
 
-ENV FASM_VERSION 1.73.18
+ENV FASM_VERSION 1.73.21
 
 RUN apk add --no-cache curl && \
     curl -sL "https://flatassembler.net/fasm-$FASM_VERSION.tgz" | tar xz && \
